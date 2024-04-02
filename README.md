@@ -26,6 +26,8 @@ Copy .env.local file from .env.example file
 
 - Run MySQL server as MindsDB data source
 
+- Create a MySQL table name `chat` with 2 columns: senderId (varchar), messages (long text)
+
 - Run MindsDB local (recommend: using [Docker](https://docs.mindsdb.com/setup/self-hosted/docker)/Docker Desktop)
 
 - Create MySQL data source: [Guide](https://docs.mindsdb.com/integrations/data-integrations/mysql)
